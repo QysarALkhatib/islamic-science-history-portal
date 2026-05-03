@@ -1,2 +1,75 @@
-# islamic-science-history-portal
-Islamic Scientific Heritage Portal - بوابة التراث العلمي الإسلامي
+# 🕌 Islamic Scientific Heritage Portal
+## بوابة التراث العلمي الإسلامي
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
+  <img src="https://img.shields.io/badge/Arabic-العربية-yellow" alt="Arabic">
+</div>
+
+## 🌟 نظرة عامة
+
+هذا الموقع التعليمي يوثق التراث العلمي للحضارة الإسلامية، ويستعرض إنجازات العلماء المسلمين في العصر الذهبي من القرن الثامن إلى الرابع عشر الميلادي.
+
+## ✨ المميزات
+
+- 📚 **العلماء المسلمون**:profiles تفاعلية لأشهر العلماء
+- ⏳ **الخط الزمني**: جدول زمني تفاعلي للتعرف على الأحداث التاريخية
+- 🔬 **العلوم**: تخصصات الرياضيات، الطب، الفلك، الكيمياء، والفيزياء
+- 💬 **المحادثة**: واجهة روبوت محادثة جاهزة للاستخدام
+- 🌍 **دعم اللغات**: العربية والإنجليزية
+- 📱 **تصميم متجاوب**: يعمل على جميع الأجهزة
+
+## 🧪 العلماء المسلمون
+
+| العالم | الفترة | التخصص |
+|--------|--------|--------|
+| الخوارزمي | 780-850م | الرياضيات (أبو الجبر) |
+| ابن سينا | 980-1037م | الطب (القانون) |
+| ابن الهيثم | 965-1040م | البصريات (أبو البصريات) |
+| الرازي | 854-925م | الطب (أول من فرق بين الجدري والحصبة) |
+| البيروني | 973-1048م | العلوم المتعددة |
+| جابر بن حيان | 721-815م | الكيمياء (أبو الكيمياء) |
+
+## 🚀 التشغيل
+
+```bash
+# استنساخ المستودع
+git clone https://github.com/YOUR_USERNAME/islamic-science-history-portal.git
+
+# افتح الملف index.html في المتصفح
+```
+
+## 📁 هيكل المشروع
+
+```
+islamic-science-history-portal/
+├── index.html          # الصفحة الرئيسية
+├── SPEC.md             # مواصفات المشروع
+├── css/
+│   └── style.css      # الأنماط
+├── js/
+│   └── main.js        # الوظائف التفاعلية
+└── README.md          # هذا الملف
+```
+
+## 🎨 التقنيات المستخدمة
+
+- HTML5 semantic markup
+- CSS3 (Flexbox, Grid, Animations)
+- Vanilla JavaScript (ES6+)
+- Google Fonts (Amiri, Cairo, Playfair Display)
+- SVG icons
+
+## 📜 الرخصة
+
+هذا المشروع مرخص بموجب MIT License.
+
+---
+
+> 🌙 "اطلبوا العلم من المهد إلى اللحد" - الحديث الشريف
+
+<div align="center">
+  <p>صُنع بـ ❤️ للعصر الذهبي الإسلامي</p>
+  <p>© 1447هـ - 2026م</p>
+</div>
