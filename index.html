@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التراث العلمي الإسلامي - Islamic Scientific Heritage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Islamic Pattern Background -->
+    <div class="pattern-bg"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 100 100" width="50" height="50">
+                    <polygon points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <polygon points="50,20 80,35 80,65 50,80 20,65 20,35" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="50" cy="50" r="15" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">التراث العلمي الإسلامي</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">الرئيسية</a>
+                <a href="#timeline" class="nav-link">الخط الزمني</a>
+                <a href="#scholars" class="nav-link">العلماء</a>
+                <a href="#sciences" class="nav-link">العلوم</a>
+                <a href="#chat" class="nav-link">المحادثة</a>
+            </nav>
+            <button class="lang-toggle" id="langToggle">EN</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">العصر الذهبي</span>
+                <span class="line">للعلوم الإسلامية</span>
+            </h1>
+            <p class="hero-subtitle">اكتشف المساهمات الرائدة للعلماء المسلمين في الرياضيات والطب والفلك والكيمياء</p>
+            <a href="#timeline" class="btn btn-primary">
+                <span>استكشف العصر الذهبي</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+        <div class="hero-decoration">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">استكشف التراث</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64" width="64" height="64">
+                            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M32 8 L32 56 M8 32 L56 32" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="32" cy="32" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>العصر الذهبي</h3>
+                    <p>الفترة من القرن الثامن إلى الرابع عشر الميلادي، حيث ازدهرت العلوم والفنون</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64" width="64" height="64">
+                            <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 44 Q32 20 44 44" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="26" r="4" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>العلماء العظماء</h3>
+                    <p>تعرف على العلماء المسلمين الذين غيروا مسار التاريخ العلمي</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64" width="64" height="64">
+                            <path d="M8 32 L32 8 L56 32 L32 56 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 32 L32 16 L48 32 L32 48 Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="32" cy="32" r="8" fill="currentColor" opacity="0.3"/>
+                        </svg>
+                    </div>
+                    <h3>الفنون والعلوم</h3>
+                    <p>اكتشف المساهمات في الرياضيات والطب والفلك والكيمياء والفيزياء</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 64 64" width="64" height="64">
+                            <path d="M32 4 L38 24 L58 24 L42 38 L48 58 L32 46 L16 58 L22 38 L6 24 L26 24 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>التفاعل والمحادثة</h3>
+                    <p>تحدث مع روبوت المحادثة للاستفسار عن أي موضوع علمي إسلامي</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <div class="container">
+            <h2 class="section-title">الخط الزمني التاريخي</h2>
+            <div class="timeline-container">
+                <div class="timeline-track">
+                    <div class="timeline-item" data-year="762">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">762م</span>
+                            <h4>تأسيس بيت الحكمة</h4>
+                            <p>أسس الخليفة العباسي المنصور دار الحكمة في بغداد</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="820">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">820م</span>
+                            <h4>اختراع الجبر</h4>
+                            <p>وضع الخوارزمي أسس علم الجبر وقدم أول حل منهجي للمعادلات</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="900">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">900م</span>
+                            <h4>الطب الحديث</h4>
+                            <p>أسس الرازي أول نظام لتصنيف الأمراض في كتابه "الحاوي"</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="1020">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">1020م</span>
+                            <h4>علم البصريات</h4>
+                            <p>أثبت ابن الهيثم أن الضوء يأتي من الأجسام إلى العين</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="1040">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">1040م</span>
+                            <h4>الشطرنج وال algorithms</h4>
+                            <p>طور الخوارزمي مفهوم الخوارزميات وطور لعبة الشطرنج</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-year="1070">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">1070م</span>
+                            <h4>قانون ابن سينا</h4>
+                            <p>ألّف ابن سيناً "القانون في الطب" الذي ظل مرجعاً لخمسة قرون</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scholars Section -->
+    <section class="scholars" id="scholars">
+        <div class="container">
+            <h2 class="section-title">العلماء المسلمون</h2>
+            <div class="scholars-grid">
+                <div class="scholar-card" onclick="openScholarModal('alkhwarizmi')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">الخوارزمي</text>
+                        </svg>
+                    </div>
+                    <h3>محمد بن موسى الخوارزمي</h3>
+                    <span class="scholar-field">الرياضيات - 780-850م</span>
+                    <p class="scholar-achievement">أبو الجبر -Father of Algebra</p>
+                </div>
+                <div class="scholar-card" onclick="openScholarModal('ibnsina')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">ابن سينا</text>
+                        </svg>
+                    </div>
+                    <h3>ابن سينا</h3>
+                    <span class="scholar-field">الطب والفلسفة - 980-1037م</span>
+                    <p class="scholar-achievement">كتاب القانون - Canon of Medicine</p>
+                </div>
+                <div class="scholar-card" onclick="openScholarModal('ibnalhaytham')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">ابن الهيثم</text>
+                        </svg>
+                    </div>
+                    <h3>ابن الهيثم</h3>
+                    <span class="scholar-field">البصريات والفيزياء - 965-1040م</span>
+                    <p class="scholar-achievement">أبو البصريات - Father of Modern Optics</p>
+                </div>
+                <div class="scholar-card" onclick="openScholarModal('alrazi')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">الرازي</text>
+                        </svg>
+                    </div>
+                    <h3>أبو بكر الرازي</h3>
+                    <span class="scholar-field">الطب والكيمياء - 854-925م</span>
+                    <p class="scholar-achievement">أول من فرق بين الجدري والحصبة</p>
+                </div>
+                <div class="scholar-card" onclick="openScholarModal('albiruni')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">البيروني</text>
+                        </svg>
+                    </div>
+                    <h3>أبو الريحان البيروني</h3>
+                    <span class="scholar-field">العلوم المتعددة - 973-1048م</span>
+                    <p class="scholar-achievement">حساب محيط الأرض بدقة</p>
+                </div>
+                <div class="scholar-card" onclick="openScholarModal('jabir')">
+                    <div class="scholar-image">
+                        <svg viewBox="0 0 120 120" width="120" height="120">
+                            <circle cx="60" cy="45" r="25" fill="currentColor" opacity="0.3"/>
+                            <path d="M35 100 Q60 60 85 100" fill="currentColor" opacity="0.2"/>
+                            <text x="60" y="80" text-anchor="middle" font-size="14" fill="currentColor">جابر</text>
+                        </svg>
+                    </div>
+                    <h3>جابر بن حيان</h3>
+                    <span class="scholar-field">الكيمياء - 721-815م</span>
+                    <p class="scholar-achievement">أبو الكيمياء - Father of Chemistry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sciences Section -->
+    <section class="sciences" id="sciences">
+        <div class="container">
+            <h2 class="section-title">تخصصات العلوم</h2>
+            <div class="science-tabs">
+                <button class="tab-btn active" data-tab="mathematics">الرياضيات</button>
+                <button class="tab-btn" data-tab="medicine">الطب</button>
+                <button class="tab-btn" data-tab="astronomy">الفلك</button>
+                <button class="tab-btn" data-tab="chemistry">الكيمياء</button>
+                <button class="tab-btn" data-tab="physics">الفيزياء</button>
+            </div>
+            <div class="science-content">
+                <div class="science-panel active" id="mathematics">
+                    <div class="science-info">
+                        <h3>الرياضيات الإسلامية</h3>
+                        <p>أسس العلماء المسلمون علم الجبر والمثلثات ونظام الأرقام العربية الذي نستخدمه اليوم.</p>
+                        <ul class="achievements-list">
+                            <li>اختراع علم الجبر على يد الخوارزمي (820م)</li>
+                            <li>تطوير نظام الأرقام العربية (0-9)</li>
+                            <li>مفهوم الخوارزميات (Algorithm)</li>
+                            <li>لوغاريتمات ونسب مثلثية</li>
+                            <li>هندسة تحليلية</li>
+                        </ul>
+                    </div>
+                    <div class="science-visual">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <rect x="20" y="20" width="160" height="160" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="20" y1="20" x2="100" y2="180" stroke="currentColor" stroke-width="1"/>
+                            <line x1="100" y1="180" x2="180" y2="20" stroke="currentColor" stroke-width="1"/>
+                            <text x="50" y="120" font-size="14" fill="currentColor">جبر</text>
+                            <text x="130" y="120" font-size="14" fill="currentColor">جبر</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="science-panel" id="medicine">
+                    <div class="science-info">
+                        <h3>الطب الإسلامي</h3>
+                        <p>طوّر الأطباء المسلمون أساليب جديدة في التشخيص والعلاج ولا تزال مؤلفاتهم مرجعاً.</p>
+                        <ul class="achievements-list">
+                            <li>أول مستشفى نظامي في التاريخ (بغداد، 805م)</li>
+                            <li>فرق الرازي بين الجدري والحصبة</li>
+                            <li>كتاب القانون لابن سينا - أعيد طبعه 30 مرة</li>
+                            <li>جراحة العيون على يد الزهراوي</li>
+                            <li>التخدير بالعطور والأعشاب</li>
+                        </ul>
+                    </div>
+                    <div class="science-visual">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M100 40 L100 160 M60 100 L140 100" stroke="currentColor" stroke-width="8"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="science-panel" id="astronomy">
+                    <div class="science-info">
+                        <h3>الفلك الإسلامي</h3>
+                        <p>أنشأ العلماء المسلمون مراصد فلكية ورصدوا النجوم بدقة فاقت ما سبقها.</p>
+                        <ul class="achievements-list">
+                            <li>تحسين الأسطرلاب وقياس الموقع</li>
+                            <li>كتالوج نجوم الشاطبية (1437 نجمة)</li>
+                            <li>حساب ميل الأرض بدقة</li>
+                            <li>رصد خسوف وكسوف بدقة</li>
+                            <li>نظرية مركزية الشمس (السراج)</li>
+                        </ul>
+                    </div>
+                    <div class="science-visual">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <circle cx="100" cy="100" r="70" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <circle cx="100" cy="100" r="50" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <circle cx="100" cy="100" r="30" fill="none" stroke="currentColor" stroke-width="1"/>
+                            <circle cx="100" cy="100" r="10" fill="currentColor"/>
+                            <circle cx="160" cy="100" r="8" fill="currentColor"/>
+                            <circle cx="100" cy="40" r="6" fill="currentColor" opacity="0.5"/>
+                        </svg>
+</div>
+                </div>
+                <div class="science-panel" id="chemistry">
+                    <div class="science-info">
+                        <h3>الكيمياء الإسلامية</h3>
+                        <p>يعد جابر بن حيان أباً للكيمياء الحديثة وطوّر أدوات لا تزال تستخدم.</p>
+                        <ul class="achievements-list">
+                            <li>تقليل وتقطير وفلترة</li>
+                            <li>أول أحماض كيميائية نقية</li>
+                            <li>ملحammoniac (نشادر)</li>
+                            <li>الكحول الطبي (الروح)</li>
+                            <li>أول الصابون الصلب</li>
+                        </ul>
+                    </div>
+                    <div class="science-visual">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <path d="M60 40 L60 120 L140 120 L140 40 Q100 0 60 40" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="100" cy="150" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <line x1="100" y1="180" x2="100" y2="200" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="science-panel" id="physics">
+                    <div class="science-info">
+                        <h3>الفيزياء الإسلامية</h3>
+                        <p>أسس ابن الهيثم علم البصريات الحديث بأسلوب تجريبي صارم.</p>
+                        <ul class="achievements-list">
+                            <li>نظرية الرؤية (الضوء للعين)</li>
+                            <li>كاميرا_obscura لتجارب الضوء</li>
+                            <li>قانون الانعكاس والانكسار</li>
+                            <li>ميكانيكا الحركة والجاذبية</li>
+                            <li>قياس سرعة الضوء</li>
+                        </ul>
+                    </div>
+                    <div class="science-visual">
+                        <svg viewBox="0 0 200 200" width="200" height="200">
+                            <line x1="20" y1="180" x2="180" y2="180" stroke="currentColor" stroke-width="2"/>
+                            <path d="M40 180 L100 100 L160 180" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="100" cy="100" r="5" fill="currentColor"/>
+                            <path d="M85 115 L100 100 L115 115" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>عن المشروع</h4>
+                    <p>موقع تعليمي يوثق التراث العلمي للحضارة الإسلامية ويعرض إنجازات العلماء المسلمين.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#timeline">الخط الزمني</a></li>
+                        <li><a href="#scholars">العلماء</a></li>
+                        <li><a href="#sciences">العلوم</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>المصادر</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">بيت الحكمة</a></li>
+                        <li><a href="#">الإسلامية تاريخ العلوم</a></li>
+                        <li><a href="#">الموسوعة الإسلامية</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 1447هـ - 2026م | التراث العلمي الإسلامي</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Button (Floating) -->
+    <button class="chatbot-fab" id="chatbotFab" aria-label="فتح المحادثة">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>
+        <span class="chat-pulse"></span>
+    </button>
+
+    <!-- Chatbot Panel -->
+    <div class="chatbot-panel" id="chatbotPanel">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar">
+                    <svg viewBox="0 0 40 40" width="40" height="40">
+                        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M12 28 Q20 16 28 28" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                        <circle cx="14" cy="22" r="2" fill="currentColor"/>
+                        <circle cx="26" cy="22" r="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div>
+                    <h4>عالم Scholar Bot</h4>
+                    <span class="chat-status">متصل</span>
+                </div>
+            </div>
+            <button class="chat-close" id="chatClose" aria-label="إغلاق المحادثة">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-avatar">
+                    <svg viewBox="0 0 32 32" width="32" height="32">
+                        <circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1"/>
+                        <path d="M10 24 Q16 12 22 24" fill="none" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                </div>
+                <div class="message-content">
+                    <p>أهلاً بك! أنا عالم Scholar Bot، مساعدك في استكشاف التراث العلمي الإسلامي. كيف يمكنني مساعدتك اليوم؟</p>
+                    <span class="message-time">14:22</span>
+                </div>
+            </div>
+            <div class="suggested-questions">
+                <button class="suggestion-chip" data-question="من اخترع الجبر؟">من اخترع الجبر؟</button>
+                <button class="suggestion-chip" data-question="أخبرني عن ابن سينا">أخبرني عن ابن سينا</button>
+                <button class="suggestion-chip" data-question="ما مساهمات المسلمين في الطب؟">ما مساهمات المسلمين في الطب؟</button>
+                <button class="suggestion-chip" data-question="متى كان العصر الذهبي؟">متى كان العصر الذهبي؟</button>
+            </div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" class="chat-input" id="chatInput" placeholder="اكتب سؤالك هنا...">
+            <button class="chat-send" id="chatSend" aria-label="إرسال">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Scholar Modal -->
+    <div class="modal-overlay" id="scholarModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeScholarModal()">×</button>
+            <div class="modal-header">
+                <div class="modal-avatar">
+                    <svg viewBox="0 0 100 100" width="100" height="100">
+                        <circle cx="50" cy="40" r="20" fill="currentColor" opacity="0.3"/>
+                        <path d="M30 90 Q50 60 70 90" fill="currentColor" opacity="0.2"/>
+                    </svg>
+                </div>
+                <div id="modalInfo">
+                    <h2 id="modalName">اسم العالم</h2>
+                    <p id="modalPeriod">الفترة</p>
+                </div>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
